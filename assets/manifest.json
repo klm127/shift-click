@@ -3,7 +3,9 @@
     "name": "Shift Click For Firefox Mobile",
     "version": "0.0.1",
     "host_permissions": [],
-    "permissions": [],
+    "permissions": [
+        "contextMenus"
+    ],
     "icons": {
         "16": "logo/16.png",
         "32": "logo/32.png",

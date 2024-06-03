@@ -9,7 +9,8 @@
         "@types/node": "^20.8.5",
         "typescript": "^5.2.2",
         "vite": "4.4.11",
-        "vite-plugin-static-copy": "^0.17.0"
+        "vite-plugin-static-copy": "^0.17.0",
+        "vite-tsconfig-paths": "^4.3.2"
     },
     "dependencies": {
         "@types/chrome": "^0.0.263",
