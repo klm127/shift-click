@@ -1,0 +1,3 @@
+# Shift-Click for Firefox
+
+Shift Click adds two buttons to select all text between the two simulated 'clicks'. It is especially useful on mobile, where you often have to play with selection ranges, which can be problematic on some websites and for large ranges. In particular, it was made to assist with accesibility features like Text To Speech. It can also be useful for copying text from websites. To use, bring up a context menu by highlighting a selection and long pressing. Shift click will add two buttons at the bottom of the screen, one for 'start selection', and one for 'expand selection'. Use 'start selection' to create an anchor, then use 'expand selection' wherever you want to expand the selection.
