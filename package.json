@@ -3,7 +3,8 @@
     "private": true,
     "version": "0.0.1",
     "scripts": {
-        "build": "node build/build.js"
+        "build": "node build/build.js",
+        "fixture": "node build/dev.js"
     },
     "devDependencies": {
         "@types/node": "^20.8.5",
