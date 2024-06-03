@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Shift Click For Firefox Mobile",
+    "version": "0.0.1",
+    "host_permissions": [],
+    "permissions": [],
+    "icons": {
+        "16": "logo/16.png",
+        "32": "logo/32.png",
+        "64": "logo/64.png",
+        "128": "logo/128.png"
+    }
+}
