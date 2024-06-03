@@ -19,12 +19,16 @@ async function buildAll() {
             plugins: [tsConfigPathsPlugin()],
             publicDir: "assets",
             build: {
+                minify: false,
+                sourcemap: feature_flags.SourceMaps,
                 emptyOutDir: false,
                 rollupOptions: {
                     output: {
                         dir: "dist",
                         entryFileNames: `js/${key}.js`,
-                        assetFileNames: `assets/[name].[extname]`
+                        assetFileNames: `assets/[name].[extname]`,
+                        compact: false,
+                        
                     },                    
                 },
                 

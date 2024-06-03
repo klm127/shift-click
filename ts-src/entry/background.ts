@@ -1,3 +1,3 @@
-import { InitBGScript } from "@/bg/background_init";
+import { InitBGScript } from "@/bg/background";
 
 InitBGScript()

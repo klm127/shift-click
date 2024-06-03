@@ -1,14 +1,22 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "Shift Click For Firefox Mobile",
     "version": "0.0.1",
-    "host_permissions": [],
     "permissions": [
-        "contextMenus"
+        "contextMenus",
+        "tabs"
     ],
     "background": {
         "scripts": ["js/background.js"]
     },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["js/content.js"],
+            "run_at": "document_start"
+        
+        }
+    ],
     "icons": {
         "16": "logo/16.png",
         "32": "logo/32.png",
